@@ -5,11 +5,11 @@ import Product from "../Product";
 import SpecialCarousel from '../Carousel/SpecielCarousel'
 
 export default function ProductSection() {
-    const products = [{ image: product1, name: "Monstera", price: "$32.00" }, { image: product2, name: "Cactus", price: "$32.00" }, { image: product3, name: "Sansevieria", price: "$32.00" }]
+    const products = [{ image: product1, alt: "Monstera", name: "Monstera", price: "$32.00" }, { image: product2, alt: "Monstera", name: "Cactus", price: "$32.00" }, { image: product3, alt: "Monstera", name: "Sansevieria", price: "$32.00" }]
     //console.log(products);
     return (
         <div className="flex flex-col gap-8  p-[80px] ">
-            <div className="flex flex-row justify-between items-center">
+            <div className="flex flex-col lg:flex-row md:flex-row items-start justify-between lg:items-center md:items-center">
                 <p className="text-[55px] align-bottom  text-nowrap">New Arrivals</p>
                 <p className=" text-[16px] lg:underline md:underline hover:delay-300 text-[#000000] hover:tracking-wider  hover:scale-105 transition-all duration-500 align-bottom  text-nowrap">SHOP ALL</p>
             </div>
@@ -18,7 +18,7 @@ export default function ProductSection() {
                     <Product key={index} product={product} />
                 ))}
             </div>
-            <SpecialCarousel slides={products}/>
+            <SpecialCarousel slides={products} />
         </div>
 
     )

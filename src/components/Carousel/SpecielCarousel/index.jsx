@@ -57,7 +57,7 @@ const SpecialCarousel = ({ slides }) => {
                 className="absolute flex flex-row justify-center items-center gap-2 top-[130px] left-[-70px] -translate-y-1/2 p-2 "
             >
                 <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
-                    width="20" height="40" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xmlSpace="preserve">
+                    width="20" height="40" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
                     <g>
                         <path d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657
 		c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824
